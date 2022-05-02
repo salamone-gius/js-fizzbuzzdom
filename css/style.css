@@ -2,8 +2,52 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border: 1px solid red;
 }
 
 body {
     background-color: rgb(8, 59, 76);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.box.blue {
+    background-color: rgb(19, 137, 178);
+}
+
+.box.green {
+    background-color: rgb(11, 214, 161);
+}
+
+.box.yellow {
+    background-color: rgb(255, 209, 102);    
+}
+
+.box.pink {
+    background-color: rgb(240, 70, 111);
 }
